@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300&display=swap');
+
+body {
+	font-size: 1em;
+	font-family: Helvetica, sans-serif;
+	background: #fffdfd;;
+	margin: auto;
+}
+
+#cabecalho {
+	background-color: #200f13;
+	box-shadow: 0 5px 5px 0 #88888888;
+	text-align: center;
+	margin-right: 0;
+}
+
+.nav_header {
+	margin-top: 27px;
+}
+
+#menu {
+	display: none;
+	background-color: #200f13;
+}
+
+.menuheader {
+	text-align: center;
+	margin: 0 20px 0 0;
+}
+
+.logo a {
+	display: block;
+}
+
+.logoTitle{
+	font-family: 'Lexend Zetta', sans-serif;
+	color: #EDD881;
+	margin-top: -2em;
+	font-size: 0.9em;
+}
+
+.logoTitleMobile{
+	font-family: 'Lexend Zetta', sans-serif;
+	color: #EDD881;
+	margin-top: -2em;
+	font-size: 0.6em;
+}
+
+.logoTitleMenuMobile{
+	font-family: 'Lexend Zetta', sans-serif;
+	color: #EDD881;
+	margin-top: -1em;
+	font-size: 0.6em;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+a:hover.red {
+	font-size: 1.15em;
+	color: #EDD881;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+	header {
+		display: none;
+	}
+	#menu {
+		display: block;
+	}
+	.footer-col {
+		width: 100%;
+	}
+	li.l {
+		text-align: center;
+	}
+}

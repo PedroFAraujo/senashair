@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300&family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulos{
+    font-family: 'Montserrat', sans-serif;
+    color: #74192e;
+    margin-top: 1em;
+}
+
+.paragrafo{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    max-width: 900px;
+}
+
+.col2{
+    margin-left: 1em;
+}
+
+.flex-container{
+    display: inline-flex;
+    align-items: center;
+}
+
+.fa-instagram{
+    color: #EDD881;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.300);
+}
+
+.flex-container:hover{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+
+#instagram{
+    margin-top: 0.65em;
+    margin-left: 0.2em;
+    font-size: 1.4em;
+    color: #EDD881;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.300);
+}
+
+.flex-containerInstaPosts{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.postInsta{
+    margin-left: 0.5em;
+}
+
+.postsInsta:hover{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+
+@media screen and (max-width: 700px) {
+	.mainTitle{
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 357px) {
+	.titleCol2{
+        margin-top: 1em;
+    }
+}
+
+@media screen and (max-width: 339px) {
+	.col2{
+        margin-left: 0;
+    }
+}
+

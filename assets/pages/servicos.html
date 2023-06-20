@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/servicos.css">
+        <title>HOME | Sena's Hair</title>
+    </head>
+    <body>
+        <header>
+			<div class="row" id="cabecalho">
+				<div class="col logo">
+					<a href="../../index.html"
+						><img width="90px" src="../img/logoL.svg"
+					/></a>
+                    <p class="logoTitle">Sena's Hair</p>
+				</div>
+				<div class="col nav_header">
+					<a class="red" href="servicos.html">Serviços</a>
+				</div>
+			</div>
+		</header>
+
+        <nav
+			style="box-shadow: 0px 5px 5px 0px #888;"
+			class="navbar fixed-top"
+			id="menu"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"
+					><img
+						style="margin-right: 10px;"
+						width="90px"
+						src="../img/logoL.svg"/>
+                        <p class="logoTitleMobile">Sena's Hair</p>
+                </a>
+                
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar"
+					aria-label="Menu"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div
+					class="offcanvas offcanvas-end"
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel"
+				>
+					<div
+						style="box-shadow: 0px 2px 5px 0px #888; background-color: #200f13;"
+						class="offcanvas-header"
+					>
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+							<img
+								style="margin-right: 10px;"
+								width="50px"
+								src="../img/logoL.svg"
+							/>
+                            <p class="logoTitleMenuMobile">Sena's Hair</p>
+						</h5>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="../../index.html"
+									>Home</a
+								>
+							</li>
+							<hr />
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Opções
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="servicos.html">Serviços</a>
+									</li>
+								</ul>
+							</li>
+							<br />
+							<br />
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="titulos mainTitle">Nossos Serviços</h1>
+                        <p class="paragrafo">Um salão de beleza ideal para quem procura adequar a imagem pessoal as suas principais necessidades, com assessoria especializada em um ambiente sofisticado e com atendimento personalizado. Solicite orçamento em nossa recepção.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/alongamentoCabelo.png" class="img-fluid" alt="Mulher com mega hair">
+                        <h3 class="titulos">Alongamento / Mega Hair / Manutenção de Telas</h3>
+                        <p class="paragrafo">
+                            Nossos profissionais Visagistas realizam as técnicas mais avançadas em alongamento capilar.
+                        </p>
+                    </div>
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/alongamentoUnha.png" class="img-fluid" alt="Unha alongada com fibra de vidro">
+                        <h3 class="titulos">Alongamento de unhas com fibra de vidro</h3>
+                        <p class="paragrafo">
+                            A unha em “fibra de vidro” é mais resistente, promove maior duração do esmalte e não tem contraindicação. Realizamos a aplicação e manutenção.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="imgServicos" src="../img/blindagemEsmalteGel.png" class="img-fluid" alt="Unha pintada com esmalte em gel">
+                        <h3 class="titulos">Blindagem do esmalte em gel</h3>
+                        <p class="paragrafo">
+                            É um procedimento estético para unhas fracas e quebradiças, traz uma sensação de unhas mais firmes e alinhadas, auxiliando no crescimento.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/coloracaoCapilar.png" class="img-fluid" alt="Pintura em cabelo">
+                        <h3 class="titulos">Coloração Capilar</h3>
+                        <p class="paragrafo">
+                            Nossos profissionais Visagistas e coloristas possuem grande experiência em colorimetria e são formados pelas marcas Keune, Wella e L'Oréal Professionnel.
+                        </p>
+                    </div>
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/consultoriaVisagismo.png" class="img-fluid" alt="Consultoria de Visagismo">
+                        <h3 class="titulos">Consultoria de Visagismo</h3>
+                        <p class="paragrafo">
+                            Nossos profissionais Visagistas aplicam o “Método VISS”, baseado nos fundamentos dos principais métodos de Visagismo do mundo.
+                            <br>
+                            Possuímos as consultorias de Visagismo femininas e masculinas: Express, Premium, Barba e o Teste de coloração pessoal.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="imgServicos" src="../img/corteVisagistaFeminino.png" class="img-fluid" alt="Mulher cortando cabelo">
+                        <h3 class="titulos">Corte Visagista Feminino</h3>
+                        <p class="paragrafo">
+                            Nossos profissionais Visagistas estão sempre atualizados com as tendências de mercado e as técnicas mais avançadas para proporcionar as melhores experiências aos nossos clientes.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/CorteVisagistaMasculino.png" class="img-fluid" alt="Homem cortando o cabelo">
+                        <h3 class="titulos">Corte Visagista Masculino e designer de barbas</h3>
+                        <p class="paragrafo">
+                            Nossos profissionais Visagistas estão sempre atualizados com as tendências de mercado e as técnicas mais avançadas para proporcionar as melhores experiências aos nossos clientes.
+                        </p>
+                    </div>
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/Escovas.png" class="img-fluid" alt="Mulher com cabelo escovado">
+                        <h3 class="titulos">Escovas</h3>
+                        <p class="paragrafo">
+                            Escovas lisas, modeladas, secado e modelagem de ondas.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="imgServicos" src="../img/Hidratacao.png" class="img-fluid" alt="Mulher com cabelo hidratado">
+                        <h3 class="titulos">Hidratação, Nutrição, Reconstrução e Cauterização capilar</h3>
+                        <p class="paragrafo">
+                            Trabalhamos com os melhores produtos de tratamento do mercado.
+                            <br>
+                            Agende seu diagnóstico capilar com nossos especialistas.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/manicure.png" class="img-fluid" alt="Mãos">
+                        <h3 class="titulos">Manicure</h3>
+                        <p class="paragrafo">
+                            Possuímos um ambiente super confortável para os serviços de manicure.
+                            <br>
+                            Manicure feminina, masculina, decorada, infantil e troca de esmaltes.
+                        </p>
+                    </div>
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/maquiagemVisagista.png" class="img-fluid" alt="Mulher maquiada">
+                        <h3 class="titulos">Maquiagem Visagista</h3>
+                        <p class="paragrafo">
+                            Nossos maquiadores Visagistas são especializados em valorizar a beleza natural, utilizando as técnicas e os produtos mais avançados do mercado.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="imgServicos" src="../img/mechas.png" class="img-fluid" alt="Mulher fazendo mechas">
+                        <h3 class="titulos">Mechas, Reflexo, Balayage, Ombré Hair</h3>
+                        <p class="paragrafo">
+                            Nossos profissionais Visagistas e coloristas realizam as técnicas mais avançadas e utilizam os melhores produtos cosméticos do mercado.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/micropigmentacao.png" class="img-fluid" alt="Mulher fazendo micropigmentação">
+                        <h3 class="titulos">Micropigmentação Visagista nas Sobrancelhas</h3>
+                        <p class="paragrafo">
+                            Nossos especialistas são formados pelas principais escolas de Micropigmentação do mundo, executam o preenchimento fio a fio com a técnica microblading tebori.
+                        </p>
+                    </div>
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/pedicure.png" class="img-fluid" alt="Pés">
+                        <h3 class="titulos">Pedicure</h3>
+                        <p class="paragrafo">
+                            Possuímos um ambiente super confortável para os serviços de pedicure.
+                            <br>
+                            Pedicure feminino, masculino, decorada, infantil e troca de esmaltes.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="imgServicos" src="../img/penteados.png" class="img-fluid" alt="Mulher com cabelo penteado">
+                        <h3 class="titulos">Penteados</h3>
+                        <p class="paragrafo">
+                            Nossos profissionais Visagistas desenvolvem penteados para ocasiões especiais, seguindo estilos modernos e clássicos. Agende sua avaliação.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/plasticaFios.png" class="img-fluid" alt="Mulher com mega hair">
+                        <h3 class="titulos">Plástica dos Fios / Alinhamento / Botox</h3>
+                        <p class="paragrafo">
+                            Trabalhamos com os melhores produtos de alisamento, selagem e redução de volume do mercado. É necessário uma avaliação técnica para definir qual o melhor procedimento.
+                        </p>
+                    </div>
+                    <div class="col colunaServiços">
+                        <img class="imgServicos" src="../img/sobrancelhas.png" class="img-fluid" alt="Mulher fazendo a sobrancelha">
+                        <h3 class="titulos">Serviços de Sobrancelhas Visagista</h3>
+                        <p class="paragrafo">
+                            Nosso especialistas realizam o design e a manutenção das sobrancelhas, utilizam técnicas de Visagismo para harmonização facial.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="imgServicos" src="../img/testeColoracao.png" class="img-fluid" alt="Teste paleta de">
+                        <h3 class="titulos">Teste de coloração pessoal Visagista</h3>
+                        <p class="paragrafo">
+                            Você sabe qual a paleta de cores que mais se encaixa com o seu tom de pele e também auxilia na hora de escolher suas roupas, acessórios, cor de cabelo e a maquiagem? Se ainda não sabe, não perca mais tempo!
+                            <br>
+                            Unimos o teste de coloração pessoal, o estudo da psicologia das cores e a análise cromática ao Visagismo para trazer a melhor experiencia para você.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="row" id="correcao">
+				<div class="col alinhar">
+					<div> <img width="100px" src="../img/logoL.svg" loading="lazy"> </div>
+					<h4 class="footerTitle">Sena's Hair</h4>
+	                <p id="copy">&copy;Sena's Hair</p>
+
+				</div>
+				<div class="col">
+					<div class="alinhar" style="margin-top: 50px;">
+					   <h4>Vistrô Beauty menu</h4>
+                       <p class="paragrafoFooter">Saladas, lanches, bebidas e muito mais.</p>
+                       <h4>Estacionamento</h4>
+                       <p class="paragrafoFooter">Possuímos serviço de valet.</p>
+	                </div>  
+				</div>
+				<div class="col none1">
+					<div class="alinhar" style="margin-top: 50px;">
+                        <h4>Endereço</h4>
+                        <p class="paragrafoFooter">Rua Antônio Alves Barril, 62 - Anália Franco.</p>
+                        <h4>Email</h5>
+                        <p class="paragrafoFooter">senashair@gmail.com</p>
+                     </div>
+				</div>
+			</div>
+        </footer>
+
+    </body>
+</html>
